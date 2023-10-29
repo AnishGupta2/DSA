@@ -64,8 +64,8 @@ def operation(value1,value2,operator):
             return "Cannot Divide By Zero"
         else:
             return value1/value2
- 
-     
+
+
 def calculator(postfixexpression):
     values=postfixexpression.split()
     stack = Stack()
